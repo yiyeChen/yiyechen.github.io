@@ -143,6 +143,42 @@
             </td>
           </tr> 
 
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images_cyy/undergrad_thesis.png' width="180"></div>
+                <img src='images_cyy/undergrad_thesis.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Small Ellipse Detection and Fitting in Complex Environment</papertitle>
+              <br>
+              <strong>Yiye Chen</strong>,
+              <br>
+              <em>Undergraduate Thesis (Chinese)</em>, 2016
+              <br>
+              <!-- <a href="data_cyy/ICRA21_CGNet.pdf">paper</a> /
+              <a href="https://youtu.be/cpUbk5JBNvY">video</a> -->
+              <p></p>
+              <p>
+                An improved ellipse detection and parameter fitting algorithm based on Helmholtz Perception Theory 
+                for small ellipses in complex environment.
+                The algorithm is applied for round reflective markers on satellite solar panels in ambient lights environment. 
+              </p>
+            </td>
+          </tr> 
+
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
